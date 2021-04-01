@@ -1,3 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:ital,wght@1,200&family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
 .dotted-border{
     border: 1px dotted red;
 }
+.btn-travel-orange, .btn-outline-travel-orange:hover{
+    background-color: orange;
+    color:white;
+    width: 180px;
+}
+
+.btn-travel-orange:hover{
+    color:white;
+}
+
+.btn-outline-travel-orange{
+    background-color: white;
+    color:orange;
+    border: 1px solid orange;
+}
+
+#black-underline, #trait{
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    
+}
+
+#travel-title{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+#travel-subtitle{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+
+}
+#subtitle{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+
+}
+.viewer{
+    font-family: 'Inter';
+    color: orange;
+    font-weight: semi-bold;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    text-align: end;
+    cursor:pointer;
+}
+#photo{
+    margin-top: 8vh;
+    margin-bottom: 20px;
+}
+#card-title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+#card-text{
+    font-family: 'mulish';
+    font-style: italic;
+    font-size: 2mm;
+}
+#body-card{
+    margin-bottom: 40px;
+    margin-top: 200px;
+}
+#more{
+    color: orange;
+    margin-bottom: 100px;
+}
+#footer{
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    margin-top: 40px;
+}
+.bi-star-fill{
+    margin: 8px;
+    color: gold;
+}
+.social-network{
+    margin: 8px;
+    text-align: center;
+}
+.bi{
+    margin: 10px;
+}
+
+.img--resize{
+    width: 32vw;
+}
+
+@media (max-width: 768px) {
+    .img--resize{
+        width: 64vw;
+    }
+  }
+
